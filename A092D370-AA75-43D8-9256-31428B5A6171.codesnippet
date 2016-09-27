@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>imageView--</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma mark  &gt; 创建 UIImageView的方法 &lt;
+-(UIImageView *)createImageViewFrame:(CGRect)frame withImageName:(NSString *)imageName backgroundColor:(UIColor *)color
+{
+    UIImageView *imageView=[[UIImageView alloc]initWithFrame:frame];
+    
+    if (imageName)
+    {
+        imageView.image=[UIImage imageNamed:imageName];
+    }
+    if (color)
+    {
+        imageView.backgroundColor=color;
+    }
+    return imageView;
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>A092D370-AA75-43D8-9256-31428B5A6171</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>创建 UIimageView</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

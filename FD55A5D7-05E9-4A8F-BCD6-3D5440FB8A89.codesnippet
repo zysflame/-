@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>color--</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#define YSColorWithRGB(redValue, greenValue, blueValue) ([UIColor colorWithRed:((redValue)/255.0) green:((greenValue)/255.0) blue:((blueValue)/255.0) alpha:1])
+#define YSColorRandom YSColorWithRGB(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
+#define YSColorFromHex(rgbValue) [UIColor colorWithRed:((float)((rgbValue &amp; 0xFF0000) &gt;&gt; 16))/255.0 green:((float)((rgbValue &amp; 0xFF00) &gt;&gt; 8))/255.0 blue:((float)(rgbValue &amp; 0xFF))/255.0 alpha:1.0]</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>FD55A5D7-05E9-4A8F-BCD6-3D5440FB8A89</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>random- 全面的随机色</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

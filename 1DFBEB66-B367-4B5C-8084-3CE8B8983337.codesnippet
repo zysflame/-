@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>screen- </string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>/** YSScreenSize 屏幕的长、宽、尺寸*/
+#define YSScreenSize [[UIScreen mainScreen] bounds].size
+#define YSScreenWidth YSScreenSize.width
+#define YSScreenHeight YSScreenSize.height
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>1DFBEB66-B367-4B5C-8084-3CE8B8983337</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>宏-屏幕尺寸</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

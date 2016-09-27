@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>alertController-</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>__weak typeof(self) weakSelf = self;
+        UIAlertController *alertContorller = [UIAlertController alertControllerWithTitle:@"友情提示" message:@"是否要修改" preferredStyle:UIAlertControllerStyleAlert];
+            UIAlertAction *alAction = [UIAlertAction actionWithTitle:@"确认" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action){
+    
+            }];
+        UIAlertAction *alertAction = [UIAlertAction actionWithTitle:@"返回" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action){
+           
+        }];
+        [alertContorller addAction:alAction];
+        [alertContorller addAction:alertAction];
+        [self presentViewController:alertContorller animated:YES completion:nil];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>841ED192-F4FC-4D80-AFC3-E4869ACC989B</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>提示框</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
